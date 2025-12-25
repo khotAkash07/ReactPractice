@@ -1,5 +1,5 @@
 import { useState } from "react";
-
+import PlayerData from "./ReuseComponent";
 let MapLoopDemo = () => {
   const players = [
     { id: 1, name: "Virat", age: 35, runs: 12000 },
@@ -16,30 +16,13 @@ let MapLoopDemo = () => {
 
   return (
     <>
-      <h1 className="font-bold">Loop Example</h1>
-      <table
-        border="1"
-        className="shadow-[0px_60px_60px_-10px_rgb(38,57,77)] bg-green-300 w-[300px] p-4 [&>*]:border-1 [&_th]:border-1 [&_td]:border-1"
-      >
-        <thead>
-          <tr>
-            <th>ID</th>
-            <th>Name</th>
-            <th>Age</th>
-            <th>Runs</th>
-          </tr>
-        </thead>
-        <tbody>
-          {players.map((p) => (
-            <tr key={p.id} className="text-center">
-              <td>{p.id}</td>
-              <td>{p.name}</td>
-              <td>{p.age}</td>
-              <td>{p.runs}</td>
-            </tr>
-          ))}
-        </tbody>
-      </table>
+      <h1 className="font-bold mt-10 text-center text-4xl ">Loop Example</h1>
+
+      {players.map((player) => (
+        <div key={player.id}>
+          <PlayerData data={player} />
+        </div>
+      ))}
     </>
   );
 };

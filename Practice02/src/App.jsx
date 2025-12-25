@@ -7,7 +7,7 @@ import MapLoopDemo from "./LoopsMap";
 function App() {
   return (
     <div className="ml-19">
-      <table>
+      {/* <table>
         <tbody>
           <tr>
             <td>
@@ -32,7 +32,7 @@ function App() {
             </td>
           </tr>
         </tbody>
-      </table>
+      </table>*/}
       <div className="ml-15">
         <MapLoopDemo />
       </div>
