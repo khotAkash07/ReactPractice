@@ -2,7 +2,7 @@ import Student from "./Student.jsx";
 
 let CollegeName = ({ college }) => {
     return (
-        <div className="grid grid-cols-2 gap-6 place-items-center">
+        <div className="grid grid-cols-3 gap-6 place-items-center">
             {
                 college.map((col, index) => (
                     <div

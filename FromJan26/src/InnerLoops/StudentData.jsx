@@ -29,6 +29,58 @@ const StudentData = () => {
             ]
         },
         {
+            collegeName: "YC College",
+            address: "Islampur, Sangli, MH10",
+            student:[
+                {
+                    name: "Akash",
+                    age: 23,
+                    marks: 90
+                },
+                {
+                    name: "Akash",
+                    age: 23,
+                    marks: 90
+                },
+                {
+                    name: "Akash",
+                    age: 23,
+                    marks: 90
+                },
+                {
+                    name: "Akash",
+                    age: 23,
+                    marks: 90
+                }
+            ]
+        },
+        {
+            collegeName: "YC College",
+            address: "Islampur, Sangli, MH10",
+            student:[
+                {
+                    name: "Akash",
+                    age: 23,
+                    marks: 90
+                },
+                {
+                    name: "Akash",
+                    age: 23,
+                    marks: 90
+                },
+                {
+                    name: "Akash",
+                    age: 23,
+                    marks: 90
+                },
+                {
+                    name: "Akash",
+                    age: 23,
+                    marks: 90
+                }
+            ]
+        },
+        {
             collegeName: "KBP College",
             address: "Islampur, Sangli, MH10",
             student:[
