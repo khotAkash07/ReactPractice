@@ -15,7 +15,6 @@ let ChangeColor = ({color}) => {
             console.log("Hi");
         }, 1000);
 
-
   return (
     <>
       <div className="bg-cyan-300 p-4 w-[150px] mx-auto mt-4 font-bold shadow-xl/50">

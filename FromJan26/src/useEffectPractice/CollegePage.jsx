@@ -1,6 +1,7 @@
 import {useEffect} from "react";
 
 let CollegeData =({count,data})=>{
+
     function runOnce(){
         console.log("This is Run Once... ");
     }
