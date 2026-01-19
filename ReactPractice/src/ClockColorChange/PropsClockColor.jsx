@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 
 let ChangeColor = ({color}) => {
 
-  let [time, setTime] = useState([]);
+  let [time, setTime] = useState("");
 
   useEffect(() => {
       setInterval(() => {
@@ -10,6 +10,11 @@ let ChangeColor = ({color}) => {
           setTime(date);
       },1000);
   },[]);
+
+        setInterval(() => {
+            console.log("Hi");
+        }, 1000);
+
 
   return (
     <>
