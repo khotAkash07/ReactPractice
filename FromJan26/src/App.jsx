@@ -1,12 +1,11 @@
 import './App.css'
-import Student2 from "./propsPractice/PassFunctionAsProps2.jsx";
-import FromSubmission from "./propsPractice/UseFromStatusApp.jsx";
+import DataLoadHandle from "./Animation/UseTransitionHook.jsx";
 
 function App() {
 
   return (
     <>
-        <FromSubmission />
+        <DataLoadHandle />
     </>
   )
 }
