@@ -16,7 +16,10 @@ let FromSubmission =()=>{
               <input type="password" placeholder="Enter Password " className="border-2 border-black p-3 w-72 rounded-xl text-xl"/><br/><br/>
               <button type="submit"
                       disabled={pending}
-                      className="border-2 border-black p-3 w-62 ml-5 bg-yellow-200 shadow-xl/30 rounded-xl hover:border-cyan-400">{pending?"Submitting...":"Submit"}</button>
+                      className="border-2 border-black p-3 w-62 ml-5 bg-yellow-200 shadow-xl/30 rounded-xl hover:border-cyan-400">
+
+                        {pending?"Submitting...":"Submit"}
+              </button>
           </div>
       )
     }
