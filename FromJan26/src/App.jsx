@@ -1,12 +1,11 @@
 import './App.css'
-import AnimationDemo from "./Animation/Demo.jsx";
-import UncontrolledComponentDemo from "./UncontrolledComponants/UncontrolledComponantDemo.jsx";
+import Student2 from "./propsPractice/PassFunctionAsProps2.jsx";
 
 function App() {
 
   return (
     <>
-        <UncontrolledComponentDemo />
+        <Student2 />
     </>
   )
 }
