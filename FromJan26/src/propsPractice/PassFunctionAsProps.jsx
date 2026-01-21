@@ -1,12 +1,9 @@
-let Student=({abc})=>{
-
+let Student=(props)=>{
 
     return(
-        <div className="p-2 grid grid-cols-2 gap-x-2">
-            <button onClick={abc}
-                    className="btn btn-primary bg-black text-white border-2 border-solid  px-5 py-3 rounded-lg hover:shadow-xl/20 hover:border-cyan-500">
-                Click here
-            </button>
+        <div>
+            {/* eslint-disable-next-line react-hooks/refs */}
+            <input ref={props.ref} type="text" className="border-2 border-black p-4 mt-8"/>
         </div>
     );
 }
