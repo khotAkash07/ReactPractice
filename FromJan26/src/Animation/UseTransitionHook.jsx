@@ -13,6 +13,7 @@ let DataLoadHandle=()=>{
     return(
         <div className="m-52">
             <h2>This is useTransition Effect Demo</h2>
+
             {
                 isPending?
                     <img style={{ width:"70px"}} src={loadingGif2}  alt="Image Load"/>:
