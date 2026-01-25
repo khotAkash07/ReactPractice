@@ -1,11 +1,12 @@
 import './App.css'
 import DataLoadHandle from "./Animation/UseTransitionHook.jsx";
+import PureFunction from "./PureFunction/PureFunction.jsx";
 
 function App() {
 
   return (
     <>
-        <DataLoadHandle />
+        <PureFunction count={2}/>
     </>
   )
 }
