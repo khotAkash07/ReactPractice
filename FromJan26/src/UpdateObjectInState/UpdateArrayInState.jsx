@@ -2,7 +2,6 @@ import {useState} from "react";
 
 let UpdateArrayInState=()=>{
 
-
     let [users, setUsers]=useState(["Akash", "Abhi", "Shubham", "Nilesh", "Prathmesh"]);
     const[name,setName]=useState("");
     let handelUser=()=> {
