@@ -6,7 +6,7 @@ let DataLoadHandle=()=>{
     const [isPending, startTransition] = useTransition(false);
    function handleButton(){
        startTransition(async ()=>{
-           await new Promise(resolve => setTimeout(resolve, 6000))
+           await new Promise(res => setTimeout(res, 6000))
            }
        );
     }
