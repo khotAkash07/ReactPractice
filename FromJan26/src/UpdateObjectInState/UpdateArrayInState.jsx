@@ -10,15 +10,12 @@ let UpdateArrayInState=()=>{
         newUsers[newUsers.length - 1] = name;
         setUsers(newUsers);
     }
-
     const[dataDetails, setDataDetails]=useState([
         {name:"Akash",age:23},
         {name:"Abhi",age:24},
         {name:"Shubham",age:29},
         {name:"Nilesh",age:24}
     ]);
-
-
     const handleAge=(age)=>{
         let copyArray = [...dataDetails];
         copyArray[copyArray.length-1].age = age;
@@ -38,7 +35,6 @@ let UpdateArrayInState=()=>{
                     )
                 )
             }
-
             <hr className="my-10"/>
             <input type="text" onChange={(e)=>{handleAge(e.target.value)}} id="age"/>
             {
