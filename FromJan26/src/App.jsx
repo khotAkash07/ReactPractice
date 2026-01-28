@@ -5,12 +5,13 @@ import Parent from "./LiftingStateUp/Parent.jsx";
 import UpdateObjectInState from "./UpdateObjectInState/UpdateObjectInState.jsx";
 import UpdateArrayInState from "./UpdateObjectInState/UpdateArrayInState.jsx";
 import FromSubmission from "./propsPractice/UseFromStatusApp.jsx";
+import RoutingHandler from "./RoutingDemo/RoutingHandler.jsx";
 
 function App() {
 
   return (
     <>
-        <FromSubmission />
+        <RoutingHandler />
     </>
   )
 }
