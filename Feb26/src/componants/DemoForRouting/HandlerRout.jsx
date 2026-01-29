@@ -4,7 +4,7 @@ let HandlerRout=()=>{
     return(
       <>
         <Link to='/'>Home</Link>
-          <Link to='/about'>About Page</Link>
+        <Link to='/about'>About Page</Link>
       </>
     );
 }
