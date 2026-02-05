@@ -5,6 +5,7 @@ let About=()=>{
     return (
         <>
             <Link to="/">Home</Link>
+
             <h1>About Page</h1>
         </>
     )
