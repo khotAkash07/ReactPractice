@@ -1,6 +1,7 @@
 import {Link} from "react-router";
 
 let About=()=>{
+
     return (
         <>
             <Link to="/">Home</Link>
