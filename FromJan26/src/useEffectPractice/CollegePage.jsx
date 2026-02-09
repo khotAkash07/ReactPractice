@@ -12,7 +12,7 @@ let CollegeData =({count,data})=>{
 
     return(
         <>
-            <h1>Count : {count}</h1>
+            <h1 className="b">Count : {count}</h1>
             <h1>Data : {data}</h1>
         </>
     );
