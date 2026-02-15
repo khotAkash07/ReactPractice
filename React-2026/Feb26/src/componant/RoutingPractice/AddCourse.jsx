@@ -17,7 +17,6 @@ export default function AddCourse() {
                         className="border border-gray-300 rounded-md p-2 focus:outline-none focus:ring-2 focus:ring-blue-400"
                     />
                 </div>
-
                 <button
                     type="submit"
                     className="w-full bg-blue-500 text-white p-2 rounded-md hover:bg-blue-600 transition"
