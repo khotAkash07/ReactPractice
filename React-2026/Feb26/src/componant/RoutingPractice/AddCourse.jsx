@@ -6,7 +6,6 @@ export default function AddCourse() {
                 <h2 className="text-xl font-semibold text-center mb-4">
                     Add New Course
                 </h2>
-
                 <div className="flex flex-col mb-4">
                     <label htmlFor="courseName" className="mb-1 font-medium">
                         Course Name
