@@ -24,7 +24,6 @@ export default function AddCourse() {
                 >
                     Add Course
                 </button>
-
             </form>
         </div>
     );
